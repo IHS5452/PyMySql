@@ -22,12 +22,12 @@ pip install mysql-connector-python
 ## Usage
 To run the script, execute the following command in your terminal:
 ```bash
-python mysql_cli.py <host> <user> <password>
+python main.py <host> <user> <password>
 ```
 Replace <host> with the MySQL server host (IP or domain name), <user> with your MySQL username, and <password> with your MySQL password. For example:
 
 ``` bash
-python mysql_cli.py 127.0.0.1 root mypassword
+python main.py 127.0.0.1 root mypassword
 ```
 
 
@@ -46,7 +46,7 @@ python mysql_cli.py 127.0.0.1 root mypassword
 
 ## Example Interaction
 ``` bash
-$ python mysql_cli.py 127.0.0.1 root password
+$ python main.py 127.0.0.1 root password
 Successfully connected to MySQL server
 Available Databases:
 1. database1
